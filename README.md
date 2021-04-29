@@ -7,11 +7,11 @@ A walkthru of the Grokking Algorithms book by Aditya Y. Bhargava in JavaScript
 
 ## Contents:
 
-### Chapter 1
+### [Chapter 1](https://github.com/gonsaje/grokking-algos/tree/main/CH1)
 + [Big O](https://github.com/gonsaje/grokking-algos/blob/main/CH1/bigO.md)
 + [Binary Search](https://github.com/gonsaje/grokking-algos/blob/main/CH1/binarySearch.md)
 + [Traveling Salesperson](https://github.com/gonsaje/grokking-algos/blob/main/CH1/travelinSalesperson.md)
 
-### Chapter 2
+### [Chapter 2](https://github.com/gonsaje/grokking-algos/tree/main/CH2)
 + Arrays vs. Linked Lists
 + Select Sort
