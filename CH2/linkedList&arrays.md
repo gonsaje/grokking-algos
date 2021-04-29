@@ -17,8 +17,9 @@ As long as they are associated with another drawer they will be connected
 
 ### Real world comparison:
 Situation: You and 10 friends need to go watch a movie
-Array: You must find a row with 11 seats so everyone can sit next to each other
-Linked List: You and your friends decide to split up to sit and watch the movie, but still know where each other are
+
++ Array: You must find a row with 11 seats so everyone can sit next to each other
++ Linked List: You and your friends decide to split up to sit and watch the movie, but still know where each other are
 
 
 ### Downfall of a Linked List:

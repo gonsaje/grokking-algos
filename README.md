@@ -8,11 +8,10 @@ A walkthru of the Grokking Algorithms book by Aditya Y. Bhargava in JavaScript
 ## Contents:
 
 ### Chapter 1
-+ Big O
-+ Binary Search
-+ Traveling Salesperson
++ [Big O](https://github.com/gonsaje/grokking-algos/blob/main/CH1/bigO.md)
++ [Binary Search](https://github.com/gonsaje/grokking-algos/blob/main/CH1/binarySearch.md)
++ [Traveling Salesperson](https://github.com/gonsaje/grokking-algos/blob/main/CH1/travelinSalesperson.md)
 
 ### Chapter 2
-+ Memory
 + Arrays vs. Linked Lists
 + Select Sort
