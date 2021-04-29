@@ -8,3 +8,4 @@ A walkthru of the Grokking Algorithms book by Aditya Y. Bhargava in JavaScript
 ## Contents:
 
 ### Chapter 1
++ [Big O][./CH1/bigO.js]
