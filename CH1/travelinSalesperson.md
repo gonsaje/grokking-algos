@@ -1,5 +1,5 @@
-/****************************************************************************************
-Traveling Salesperson
+
+# Traveling Salesperson
 
 A salesperson has to go to five cities. (ex. San Fran, LA, Berkeley, Fremont, Palo Alto) 
 The sales person wants to go to all 5 cities while traveling the minimim distance.
@@ -12,9 +12,8 @@ increases to 720. For 7, it would be 5040.
 This algorithm to find the best trip would run at O(n!) time (factorial time).
 
 
-Recap:
-- Binary search is faster than simple search and grow increasingly faster with larger inputs
-- Algo time is measured in num of operations and not runtime.
+### Recap:
+* Binary search is faster than simple search and grow increasingly faster with larger inputs
+* Algo time is measured in num of operations and not runtime.
 
-*****************************************************************************************/
 
