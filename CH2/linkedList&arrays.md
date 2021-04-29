@@ -56,4 +56,35 @@ Arrays have constant time to read, but linear time to insert.
 So if there are more insertion requests than read request, it would be better
 to use a linked list.
 
-Adding to the middle of a list
+
+## Adding to the middle of a list
+
+For lists, all you have to do is readjust what the previous item is pointing to.
+For arrays, you would have to re-index all of the elements that would get shifted because of the new item.
+If there was that issue with space in memory, then the computer would have to find a no slot in memory.
+
+
+## Deletion
+
+The same idea applies for deleting items. For lists, we could simply redirect an item to point to something else.
+This would successfully remove the item quickly. 
+For arrays, the computer would have to re-index all the elements over again.
+
+| Runtimes |   Arrays  |  LinkedLists |
+|----------|:---------:|:------------:|
+|Reading   |    O(1)   |     O(n)     |
+|Inserting |    O(n)   |     O(1)     |
+|Deleting  |    O(n)   |     O(1)     |
+
+## Sequential Access vs. Random Access
+
+Sequential access is when you go through each item one by one.
+Random access is when you call an item by its specifc address.
+Ex. There is an array of 15 items, if you were to call the array on its 10th index we would get that element without knowing what came before.
+
+LinkedLists can only be accessed using sequential access.
+Arrays can use both sequential and random access.
+
+Because of this, arrays can be faster to access specific information.
+
+## Exercises
