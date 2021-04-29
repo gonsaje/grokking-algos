@@ -7,11 +7,11 @@ const binarySearch = (array, target) => {
     let lo = 0,
         hi = array.length - 1;
 
-    while (lo < hi) { // this means while our pointers haven't narrowed down to one item
+    while (lo <= hi) { // while our pointers haven't narrowed down to one item
         let mid = Math.floor((lo + hi) / 2); // mid index based on where our pointers lie
   
         if (array[mid] === target) return mid; // in the case that we found our item
-        if (array[mid] > target) hi = mid - 1; // if guess is too high then reset the new hi to be lower than current mid
+        if (array[mid] > target) hi = mid - 1; // if guess is too high, reset the new hi to be less than current mid
         else lo = mid + 1; // if guess was too low than reset new lo to be higher than current mid 
     }
 
