@@ -1,6 +1,7 @@
-// Binary Search
-// Only works when list is in sorted order
+# Binary Search
+### Only works when list is in sorted order
 
+```js
 const binarySearch = (array, target) => {
     //pointers start at the extremities of our list
     let lo = 0,
@@ -19,18 +20,19 @@ const binarySearch = (array, target) => {
 
 console.log(binarySearch([1,2,3,4,5,6,7,8,9], 8));
 console.log(binarySearch([1,2,3,4,5,6,7,8,9], 3));
+```
 
-// Suppose you have a sorted list of 128 names, and you're searching trhough it using binary search.
-// What's the maximum number of steps it would take?
+### Suppose you have a sorted list of 128 names, and you're searching trhough it using binary search.
+### What's the maximum number of steps it would take?
 
-// 128 => 64 => 32 => 16 => 8 => 4 => 2 => 1 // 7 steps
+128 => 64 => 32 => 16 => 8 => 4 => 2 => 1 
+7 steps
 
+### Suppose you double the size of the list. What's the max num of steps now? 
 
-// Suppose you double the size of the list. What's the max num of steps now? 
+8 steps because it's only one extra step to get from double 128 to 128
 
-// 8 steps b/c it's only one extra step to get from double 128 to 128
+ex.
+256 => 128 => 64 => 32 => 16 => 8 => 4 => 2 => 1 // 8 steps
 
-// ex.
-// 256 => 128 => 64 => 32 => 16 => 8 => 4 => 2 => 1 // 8 steps
-
-// Binary Search runs on O(log n)
+### Binary Search runs on O(log n)
