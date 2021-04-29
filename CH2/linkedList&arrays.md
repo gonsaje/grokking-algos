@@ -28,9 +28,11 @@ You need the previous one to get to the current one and the current one to get t
 
 On the flip side with arrays, you know exactly where every item on the list is. 
 
-Runtimes of |  Arrays  | vs.|  Linked Lists  |
-Reading:        O(1)               O(n)
-Insertion:      O(n)               O(1)
+
+| Runtimes |   Arrays  |  LinkedLists |
+|----------|:---------:|:------------:|
+|Reading   |    O(1)   |     O(n)     |
+|Inserting |    O(n)   |     O(1)     |
 
 Why does it take O(n) time to insert an element into an array?
 Suppose we insert at the beginning of an array. How would you do it?
