@@ -20,6 +20,11 @@ function selectionSort(arr) {
     return sortedArr;
 }
 
+console.log(selectionSort([9,3,2,5,1,4,8])); // => [1,2,3,4,5,8,9]
+
+//////////////////////////////////////////////////////////////////////////
+
+
 function selectSort(arr) {
     let sortArr = [];
     let length = arr.length;
@@ -48,5 +53,5 @@ function findSmallest(arr) {
 
 
 
-console.log(selectionSort([9,3,2,5,1,4,8])); // => [1,2,3,4,5,8,9]
+
 console.log(selectSort([9,3,2,5,1,4,8])); // => [1,2,3,4,5,8,9]
