@@ -13,5 +13,9 @@ A walkthru of the Grokking Algorithms book by Aditya Y. Bhargava in JavaScript
 + [Traveling Salesperson](https://github.com/gonsaje/grokking-algos/blob/main/CH1/travelinSalesperson.md)
 
 ### [Chapter 2](https://github.com/gonsaje/grokking-algos/tree/main/CH2)
-+ Arrays vs. Linked Lists
-+ Select Sort
++ [Arrays vs. Linked Lists](https://github.com/gonsaje/grokking-algos/blob/main/CH2/linkedList%26arrays.md)
++ [Select Sort](https://github.com/gonsaje/grokking-algos/blob/main/CH2/SelectionSort.js)
+
+### [Chapter 3](https://github.com/gonsaje/grokking-algos/tree/main/CH2)
++ [Recursion](https://github.com/gonsaje/grokking-algos/blob/main/CH2/linkedList%26arrays.md)
++ [Select Sort](https://github.com/gonsaje/grokking-algos/blob/main/CH2/SelectionSort.js)
